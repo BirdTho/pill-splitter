@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+## Installation
+Check out this repo in your projects folder with 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+`git clone https://github.com/BirdTho/pill-splitter.git`
+
+-or-
+
+`git clone git@github.com:BirdTho/pill-splitter.git` for those SSH users
+
+Make sure you have Node (`12.x` or `14.x` preferred)
+
+Run `npm ci` in the project root
+
+Then you can run `npm start` in the project root to view the page.
+
+## Editing
+
+Please submit a pull request with your code changes. I promise nothing, but I do check my email.
 
 ## Available Scripts
 
