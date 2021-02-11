@@ -1,0 +1,71 @@
+.num-input {
+    font: inherit;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.num-input::after, .num-input .after-span {
+    color: black;
+    position: absolute;
+    display: inline-block;
+    padding-top: 3px;
+    font: inherit;
+}
+
+.num-input::after {
+    left: 0;
+    padding-left: 0.2em;
+}
+
+.num-input .after-span {
+    right: 0;
+    padding-right: 0.2em;
+}
+
+.num-input input[type="number"] {
+    font: inherit;
+    -moz-appearance: textfield;
+    outline: none !important;
+    display: inline-block;
+    margin-bottom: 0.2em;
+    padding-right: 2em;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+.num-input input[type="number"]::-webkit-outer-spin-button,
+.num-input input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Pill Weight */
+.num-input.pill-weight::after {
+    content: "Pill Weight:"
+}
+
+.num-input.pill-weight input[type="number"] {
+    padding-left: 5.5em;
+    width: 3.5em;
+}
+
+/* Piece Weight */
+.num-input.total-dose::after {
+    content: "Total dose:"
+}
+
+.num-input.total-dose input[type="number"] {
+    padding-left: 5.3em;
+    width: 3.5em;
+}
+
+/* Piece Weight */
+.num-input.piece-weight::after {
+    content: "Piece Weight:"
+}
+
+.num-input.piece-weight input[type="number"] {
+    padding-left: 6.5em;
+    width: 3.5em;
+}
